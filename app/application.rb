@@ -5,7 +5,7 @@ class Application
     response = Rack::Response.new
 
     time = Time.local
-    binding.pry
+
     response.finish
   end
 
